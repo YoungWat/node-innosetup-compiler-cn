@@ -1,4 +1,10 @@
-node-innosetup-compiler
+### forked from felicienfrancois/node-innosetup-compiler
+#### difference
+
+- 1.use innosetup v6 
+- 2.Chinese language support
+
+node-innosetup-compiler-cn
 =======================
 
 Node module to compile inno setup scripts (.iss)
