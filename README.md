@@ -1,10 +1,10 @@
-### forked from felicienfrancois/node-innosetup-compiler
+### forked from felicienfrancois/node-innosetup-compiler-cn
 #### difference
 
 - 1.use innosetup v6 
 - 2.Chinese language support
 
-node-innosetup-compiler-cn
+node-innosetup-compiler-cn-cn
 =======================
 
 Node module to compile inno setup scripts (.iss)
@@ -35,21 +35,21 @@ _All options are optional_
 ##### Command line
 
 ```shell
-npm install -g innosetup-compiler
+npm install -g innosetup-compiler-cn-cn
 ```
 
 ```shell
-innosetup-compiler myscript.iss --gui --verbose --signtoolname=signtool --signtoolcommand='"path/to/signtool.exe" sign /f "C:\\absolute\\path\\to\\mycertificate.pfx" /t http://timestamp.globalsign.com/scripts/timstamp.dll /p "MY_PASSWORD" $f'
+innosetup-compiler-cn myscript.iss --gui --verbose --signtoolname=signtool --signtoolcommand='"path/to/signtool.exe" sign /f "C:\\absolute\\path\\to\\mycertificate.pfx" /t http://timestamp.globalsign.com/scripts/timstamp.dll /p "MY_PASSWORD" $f'
 ```
 
 ##### Node JS
 
 ```shell
-npm install innosetup-compiler
+npm install innosetup-compiler-cn
 ```
 
 ```javascript
-require("innosetup-compiler")("path/to/your/innoscript.iss", {
+require("innosetup-compiler-cn")("path/to/your/innoscript.iss", {
     gui: false,
     verbose: false,
     signtoolname: 'signtool',
@@ -62,11 +62,11 @@ require("innosetup-compiler")("path/to/your/innoscript.iss", {
 ##### Grunt
 
 ```shell
-npm install innosetup-compiler --save-dev
+npm install innosetup-compiler-cn --save-dev
 ```
 
 ```javascript
-grunt.loadNpmTasks('innosetup-compiler');
+grunt.loadNpmTasks('innosetup-compiler-cn');
 ...
 grunt.initConfig({
     ...
@@ -112,12 +112,12 @@ All ISCC.exe options can be used (without the trailing slash).
 
 - Command line using the `--[Arg]=[Val1];[Val2]` syntax
 ```shell
-innosetup-compiler myscript.iss --O=outputfile.exe
+innosetup-compiler-cn myscript.iss --O=outputfile.exe
 ```
 
 - Node JS
 ```javascript
-require("innosetup-compiler")("path/to/your/innoscript.iss", {
+require("innosetup-compiler-cn")("path/to/your/innoscript.iss", {
     O: 'outputfile.exe'
 }, function(error) {
     // callback
@@ -126,7 +126,7 @@ require("innosetup-compiler")("path/to/your/innoscript.iss", {
 
 - Grunt
 ```javascript
-grunt.loadNpmTasks('innosetup-compiler');
+grunt.loadNpmTasks('innosetup-compiler-cn');
 ...
 grunt.initConfig({
     ...
