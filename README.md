@@ -1,5 +1,8 @@
-forked from felicienfrancois/node-innosetup-compiler
-use innosetup v6 and chinese language support
+### forked from felicienfrancois/node-innosetup-compiler
+#### difference
+
+- 1.use innosetup v6 
+- 2.Chinese language support
 
 node-innosetup-compiler-cn
 =======================
