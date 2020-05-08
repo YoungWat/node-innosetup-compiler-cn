@@ -1,8 +1,8 @@
 ### forked from felicienfrancois/node-innosetup-compiler-cn
 #### difference
 
-- 1.use innosetup v6 
-- 2.Chinese language support
+1. use innosetup v6 
+2. Chinese language support
 
 node-innosetup-compiler-cn-cn
 =======================
